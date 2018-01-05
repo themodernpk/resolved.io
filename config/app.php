@@ -171,6 +171,7 @@ return [
         Creativeorange\Gravatar\GravatarServiceProvider::class,
         Ixudra\Curl\CurlServiceProvider::class,
         Berkayk\OneSignal\OneSignalServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
 
         /*

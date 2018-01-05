@@ -12,7 +12,8 @@
         "creativeorange/gravatar": "~1.0",
         "ixudra/curl": "^6.10",
         "guzzlehttp/guzzle": "^6.2",
-        "berkayk/onesignal-laravel": "^0.9.9"
+        "berkayk/onesignal-laravel": "^0.9.9",
+        "barryvdh/laravel-ide-helper": "^2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -27,7 +28,8 @@
             "App\\": "app/",
             "Modules\\": "Modules/",
             "Tests\\": "tests/"
-        }
+        },
+        "files": ["Modules/ResolvedCore/resolved-helper.php"]
     },
     "scripts": {
         "post-root-package-install": [
